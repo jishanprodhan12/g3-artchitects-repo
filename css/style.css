@@ -1,0 +1,473 @@
+/* font setup start here  */
+
+/* font setup ends here  */
+/* universal selector start here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* universal selector ends here  */
+/* share style start here  */
+.gray-color{
+    color: rgba(128, 128, 128, 0.653);
+    font-size: small;
+}
+.share-title{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.primary-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(245, 161, 5, 0.991);
+    color: white;
+    border: none;
+}
+.short-margin-top{
+    margin-top: 20px;
+}
+.short-margin-bottom{
+    margin-bottom: 20px;
+}
+
+/* share style ends here  */
+/* start header section  */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 228, 196, 0.379);
+}
+.header-section-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+}
+/* nav section starts here  */
+.nav-main{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.nav-header{
+    margin-left: 5px;
+}
+.nav-links{
+    margin-right: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links > li {
+    list-style: none;
+}
+.nav-links > li a{
+    color: black;
+    text-decoration: none;
+}
+/* nav section ends  here  */
+/* banner section start here  */
+.banner-section-container{
+    margin-top: 40px;
+    height: fit-content;
+}
+.banner-title{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-peragraph{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.banner-btn-container{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.banner-img-container{
+    margin-top: 30px;
+    width: 100%;
+    height: 420px;
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* banner section ends here  */
+/* Quick list section start here  */
+    .quick-list-section{
+        max-width: 1440px;
+        min-height: fit-content;
+        margin: 0 auto;
+    }
+    .quick-list-section-container{
+        width: 80%;
+        height: fit-content;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .quick-list-img-container{
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .img-container-1{
+        width: 95%;
+        height: 245px;
+        border-radius: 8px;
+        background-image: url('../images/team1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .img-container-2{
+        width: 95%;
+        height: 245px;
+        border-radius: 8px;
+        background-image: url('../images/team2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .img-container-3{
+        width: 95%;
+        height: 245px;
+        border-radius: 8px;
+        background-image: url('../images/team3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .img-container-4{
+        width: 95%;
+        height: 245px;
+        border-radius: 8px;
+        background-image: url('../images/team4.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .quick-list-text-contaier{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .quick-list-title{
+        .quick-list-span{
+            color: rgba(128, 128, 128, 0.639);
+        }
+        width: 60%;
+        text-align: left;
+        .title-features{
+            color: orange;
+        }
+    }
+    .quick-list-peragraph{
+        width: 80%; 
+    }
+    .quick-btn-container{
+        width: fit-content;
+        margin-top: 10px;
+    }
+/* Quick list section ends here  */
+/* Features section start here  */
+.features-section{
+    max-width: 1440px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+.features-section-container{
+    width: 80%;
+    height:fit-content;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-section-text-conainer{
+    width: 48%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+}
+.feature-title-container{
+    width: 80%;
+}
+.feature-title{
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+    border: 3px solid rgb(255, 165, 0);
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.feature-box-container{
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px rgba(192, 195, 197, 0.731);
+}
+.feature-box-title{
+    padding: 5px;
+    padding-left: 10px;
+}
+.feature-box-peragraph{
+    margin-top: 10px;
+    padding-left: 10px; 
+}
+
+/* feature img style start here  */
+.feature-section-img-container{
+    width: 48%;
+    height: 600px;
+    position: relative;
+}
+.feature-section-img-container img{
+    width: 100%;
+    height: 100%;
+}
+.ten-year-btn{
+    width: 200px;
+    height: 120px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(245, 161, 5, 0.991);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    position: absolute ;
+    bottom: -40px;
+    left: -60px;
+    /* btn inner style  */
+    .ten-btn-head{
+        color: white;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .ten-btn-body{
+        color: white;
+    }
+    
+}
+/* Features section ends  here  */
+/* some facts section start here  */
+.some-facts-section{
+    max-width: 1440px;
+    min-height: 450px;
+    margin: 0 auto;
+}
+.some-facts-section-container{
+    width: 80%;
+    height: 50%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.some-facts-text-container{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.some-facts-title{
+    width: fit-content;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.some-facts-peragraph{
+    width: 70%;
+    color: gray;
+    font-size: small;
+}
+/* some facts card part start here  */
+.some-facts-card-container{
+    height: 55%;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-1{
+    width: 180px;
+    height: 180px;
+    border: 2px solid rgb(255, 165, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.card-2{
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 165, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.card-3{
+    height: 180px;
+    border-radius: 10px;
+    width: 180px;
+    border: 2px solid rgb(255, 165, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.card-4{
+    height: 180px;
+    border-radius: 10px;
+    width: 180px;
+    border: 2px solid rgb(255, 165, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.card-icon{
+    width: fit-content;
+}
+.card-text{
+    color: rgba(107, 106, 106, 0.89);
+}
+/* some facts section ends here  */
+/* sponspor section start here  */
+.sponspor-section{
+    max-width: 1440px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+.sponspors-section-container{
+    max-width: 80%;
+    min-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sponspors-text-container{
+    width: 100%;
+    height: 150px;
+
+}
+.sponspors-text{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sopnspors-peragraph{
+    text-align: center;
+}
+/* sponspors image section start here  */
+.sponspors-img-container{
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 45px;
+    align-items: center;
+}
+.sponspors-icon-1{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponspors-icon-2{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponspors-icon-3{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponspors-icon-4{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponspors-icon-5{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponspors-icon-1 img ,
+.sponspors-icon-2 img  ,
+.sponspors-icon-3 img ,
+.sponspors-icon-4 img ,
+.sponspors-icon-5 img{
+   width: 100%;
+   height: 50%;
+   filter: grayscale(30);
+}
+/* sponspor section ends here  */
+/* copyright section start here  */
+.copy-right-section{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto; 
+}
+.copy-right-section-container{
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgba(255, 228, 196, 0.379);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-right-contant{
+    text-align: center;
+    font: bold;
+}
+/* copyright section ends here  */
