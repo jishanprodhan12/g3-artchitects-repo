@@ -48,6 +48,18 @@
         width: 100%;
         padding-bottom: 20px;
     }
+    .quick-list-img-container:hover{
+        cursor: pointer;
+        box-shadow: none;
+    }
+    .img-container-1:hover ,
+    .img-container-2:hover ,
+    .img-container-3:hover ,
+    .img-container-4:hover ,
+    .img-container-5:hover{
+        transform: none;
+        cursor: default;
+    }
 /* Quick list section ends here  */
 /* Features section start here  */
 .features-section-container{
